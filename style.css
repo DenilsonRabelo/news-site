@@ -1,0 +1,95 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #222;
+}
+
+h4 {
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+
+p {
+    color: white;
+}
+
+.card p {
+    padding-top: 35px;
+    font-size: 16px;
+    max-height: 65px;
+}
+
+.card h4 {
+    max-height: 55px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    padding: 10px 30px;
+    align-items: center;
+    width: 100px;
+    border-radius: 30px;
+    background-color: crimson;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.btn a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.btncc {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    top: 10px;
+}
+
+.btn:hover {
+    background-color: transparent;
+    border: 1px solid crimson;
+}
+
+.card-img{
+    max-width: 100%;
+    height: 250px;
+}
+
+
+
+#resultado {
+    padding: 20px 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	grid-gap: 20px;
+	padding-inline-start: 0;
+    
+}
+
+
+h4 {
+    align-items: center;
+}
+
+.card {
+    text-align: center;
+    border-radius: 20px;
+    list-style: none;
+    color: #222;
+    padding: 20px 10px;
+    border: 3px solid black;
+}
