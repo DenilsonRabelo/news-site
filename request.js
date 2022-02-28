@@ -1,8 +1,4 @@
-var url = 'https://newsapi.org/v2/top-headlines?' +
-          'sources=bbc-news&' +
-          'apiKey=fc501c78ccf84487b212798d1ff404bb';
-var req = new Request(url);
-fetch(req)
+fetch(`https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=fc501c78ccf84487b212798d1ff404bb`)
     .then(response => response.json())
     .then(data => {
       let saida = ''
